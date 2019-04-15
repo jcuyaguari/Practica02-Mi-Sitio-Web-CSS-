@@ -37,5 +37,18 @@
     padding-right: 10px;
     margin-bottom: 10px;
 }
+<li>En la etiqueta div, llamamos al selector por id “columna2”.</li>
+```
+<div id=columna2>
+```
+<li>En la etiqueta <head> enlazamos los “css” donde se encuentra dicha configuración.</li>
+```
+<head>
+    <meta charset="utf-8" />
+    <meta name="keywords" content="Pacari" />
+    <title>Pacari Chocolate</title>
+    <link href="css/reglas.css" rel="stylesheet" type="text/css"/>
+    <link href="css/2columnas.css" rel="stylesheet" type="text/css"/>
+</head>
 
 ```
