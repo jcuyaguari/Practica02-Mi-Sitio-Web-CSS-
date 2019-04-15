@@ -98,10 +98,11 @@ url: https://github.com/jcuyaguari/Practica02-Mi-Sitio-Web-CSS-
 •	La evidencia de la validación de las hojas de estilos CSS. 
 1.	Validación para el css de dos columnas.
 
-CONCLUSIONES:  
+#CONCLUSIONES:  
 •	Gracias a esta práctica he podido aprender a como dar estilos a las etiquetas, así también entender un poco mas sobre las propiedades que posee html5.
 •	A través de esta práctica aprendí mas a cerca de como asignar las configuraciones de css en html5 a sus respectivas etiquetas.
-RECOMENDACIONES:  
+
+#RECOMENDACIONES:  
 •	Realizar la practica en un IDE que nos permita editar el código de forma más rápida, y probar constantemente, por los menos en dos navegadores lo que se va realizando para ver los cambios que se han hecho. 
 
 
