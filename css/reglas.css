@@ -1,12 +1,12 @@
 #menuPrincipal{
     width: 20%;
     float: left;
-    white-space: pre;
     border: 0px;
     padding: 0px;
     border-style: solid;
     white-space: nowrap;
     
+
 }
 
 #ubicacion{
