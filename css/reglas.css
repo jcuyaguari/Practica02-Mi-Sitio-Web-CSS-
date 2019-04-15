@@ -2,7 +2,6 @@
     width: 20%;
     float: left;
     border: 0px;
-    padding: 0px;
     border-style: solid;
     white-space: nowrap;
     
@@ -24,7 +23,7 @@
     list-style-type: none;
     margin:0; /*margen de la cabecera*/
     padding:40px;
-    width: 220px;
+    width: 190px;
      
 }
 .colorContactanos{
@@ -53,12 +52,12 @@ h4{
     font-size: 18px;
 }
 a{
-    color:mediumslateblue;
+    color:rgb(199, 228, 69);
     font-weight: bold;
 }
 
 a:visited{
-    color: rgb(94, 94, 138);
+    color: rgb(206, 113, 27);
 }
 a:hover,a:active,a:focus {
   color: rgb(199, 55, 55);
