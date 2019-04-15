@@ -9,10 +9,10 @@
 </ul>
 
 <h1>ACTIVIDADES POR DESARROLLAR</h1>
-<li> Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)” </li>
+<li>1. Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)” </li>
 
+<li>2. Realizar un commit y push por cada requerimiento de los puntos antes descritos.  </li>
 
-2.	Realizar un commit y push por cada requerimiento de los puntos antes descritos. 
 C:\Users\JuancUyaguari>cd Desktop                                                                                                                                                                                                                                                                                                                                                                                                 C:\Users\JuancUyaguari\Desktop>cd Hipermedial                                                                                                                                                                                                                                                                                                                                                                                     C:\Users\JuancUyaguari\Desktop\Hipermedial>cd Deber2                                                                                                                                                                                                                                                                                                                                                                              C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git init
 C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git add .
 C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git commit -m “creacion”
@@ -108,12 +108,11 @@ url: https://github.com/jcuyaguari/Practica02-Mi-Sitio-Web-CSS-
 6. En el archivo README del repositorio debe constar la misma información del informe de resultados de la práctica que se indica en el punto anterior. 
 •	La evidencia de la validación de las hojas de estilos CSS. 
 1.	Validación para el css de dos columnas.
-
-#CONCLUSIONES:  
+<h1>ACTIVIDADES POR DESARROLLAR</h1>
+<h1>CONCLUSIONES:</h1>
 •	Gracias a esta práctica he podido aprender a como dar estilos a las etiquetas, así también entender un poco mas sobre las propiedades que posee html5.
 •	A través de esta práctica aprendí mas a cerca de como asignar las configuraciones de css en html5 a sus respectivas etiquetas.
-
-#RECOMENDACIONES:  
+<h1>RECOMENDACIONES:</h1>
 •	Realizar la practica en un IDE que nos permita editar el código de forma más rápida, y probar constantemente, por los menos en dos navegadores lo que se va realizando para ver los cambios que se han hecho. 
 
 
