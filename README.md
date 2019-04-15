@@ -50,5 +50,4 @@
     <link href="css/reglas.css" rel="stylesheet" type="text/css"/>
     <link href="css/2columnas.css" rel="stylesheet" type="text/css"/>
 </head>
-
 ```
