@@ -19,4 +19,23 @@
 <li>C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git commit -m “creacion”.</li>
 <li>C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git push -u origin master</li>
 <li>3.Al finalizar la práctica se debe validar todas las páginas HTML y hojas de estilos CSS creadas usando el W3C Validator.</li>
- 
+<li>4.Luego, se debe crear el archivo README del repositorio de GitHub.</li>
+<li>5. Generar informe de los resultados en el formato de prácticas. Debe incluir: 
+•	El desarrollo de cada uno de los puntos antes descritos así como las reglas CSS utilizadas para resolver cada punto.</li>
+    
+1.	Una página HTML, un diseño a dos columnas con cabecera y pie de página.
+
+```
+#columna2{
+    width: 78%;
+    float: left;
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+```
