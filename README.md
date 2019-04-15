@@ -38,6 +38,41 @@
     margin-bottom: 10px;
 }
 ```
+```
+#columna3{
+    width: 20%;
+    float: right;
+    text-align: justify;
+    
+}
+
+.seccion1{
+    width: 59%;
+    float: left;
+    text-align: justify;
+    background: rgba(25, 89, 97, 0.623);
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.seccion2{
+    width:17%;
+    float: right;
+    margin-bottom: 0%;
+    text-align: justify;
+    background: thistle;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+```
 En la etiqueta div, llamamos al selector por id “columna2”.
 <div id=columna2>
 En la etiqueta <head> enlazamos los “css” donde se encuentra dicha configuración.
