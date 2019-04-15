@@ -1,11 +1,21 @@
 #columna2{
-    width: 100%;
+    width: 78%;
     float: left;
-
+    text-align: justify;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+    
 }
 
 footer{
+    clear: both;
+    border-width: thin 0px;
+    border-style: ridge;
+    background-color: rgba(218, 221, 23, 0.945);
+    
 
-    width: 100%;
-    float: left;
 }

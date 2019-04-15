@@ -5,14 +5,16 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="Pacari" />
     <title>Pacari Chocolate</title>
-</head>
+    <link href="css/reglas.css" rel="stylesheet" type="text/css"/>
+    <link href="css/2columnas.css" rel="stylesheet" type="text/css"/>
+    <link href="css/3columnas.css" rel="stylesheet" type="text/css"/>
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="">
+        <img id=img src="images/logo.jpg" alt="">
     </header>
-    <nav>
-        <ul>
+    <nav id=menuPrincipal>
+        <ul class="colorMenu">
             <li><a href="Index.html">Principal</a></li>
             <li><a href="Conocenos.html">Conocenos</a></li>
             <li><a href="nuestros-productos.html">Nuestros Productos</a></li>
@@ -22,14 +24,14 @@
         </ul>
     </nav>
 
-    <section>
+    <section class="seccion1">
         <header>
-            <a href="Prensa.html#revista">Amor y Exito Compartido - Revista Hogar 2017 </a>
-            <a href="Prensa.html#boletin"> Boletín Revista Criterios</a>
-            <a href="Prensa.html#pasajeros"> Los Pasajeros de Emirates Airlines Vuelan con el sabor de Pacari</a>
+            <a href="Prensa.html#revista" target="_blank">Amor y Exito Compartido - Revista Hogar 2017  </a>
+            <a href="Prensa.html#boletin" target="_blank"> Boletín Revista Criterios</a>
+            <a href="Prensa.html#pasajeros" target="_blank"> Los Pasajeros de Emirates Airlines Vuelan con el sabor de Pacari</a>
         </header>
         <article>
-            <h4 id=revista>Amor y Exito Compartido - Revista Hogar 2017</h4>
+            <h1 id=revista>Amor y Exito Compartido - Revista Hogar 2017</h1>
             <p>Tres parejas. Unas con más tiempo que otras, pero
                 todas con un sentimiento real; y, además, una
                 afición que los une aparte del cariño de su relación. Santiago Peralta y Carla Barbotó
@@ -37,11 +39,11 @@
                 Cuando alguien te regala chocolate es porque te quiere bien, quiere que tengas un buen momento.
                 Por otro lado, el efecto del chocolate despierta alegría, endorfinas, te ilusiona, igual que el amor,
                 es un viaje interno, algo que se siente y se disfruta"..</p>
-            <img src="images/prensa.jpg" alt="">
+            <img class="imgTxt" src="images/prensa.jpg" alt="">
         </article>
 
         <article>
-            <h4 id=boletin>Boletín Revista Criterios</h4>
+            <h2 id=boletin>Boletín Revista Criterios</h2>
             <p>Esta es una empresa familiar que revolucionó el mercado global del chocolate.
                 Pacari significa "naturaleza" en kichwa, nombre elegido para evocar todo lo
                 que representa su chocolate: los mejores productos de la tierra. Los chocolates
@@ -53,33 +55,36 @@
             <h4 id=pasajeros>Los Pasajeros de Emirates Airlines Vuelan con el sabor de Pacari</h4>
             <p>Pacari, empresa ecuatoriana productora de chocolate 100 % orgánico, a partir de
                 este enero distribuye en todas las rutas de vuelo de una de las aerolíneas más
-                cotizadas del mundo y auspiciante de los mejores equipos de fútbol europeo: Emirates Airlines</p>
+                cotizadas del mundo y auspiciante de los mejores equipos de fútbol europeo:
+                Pacari, empresa ecuatoriana productora de chocolate orgánico, a partir enero, 
+                distribuye su marca en todas las rutas de vuelo de una de las aerolíneas más cotizadas del mundo: Emirates Airlines.
+                La aerolínea árabe pidió un millón de cajas para este 2017, cada empaque contiene 2 o 4 mini barras;
+                es decir, 1 millón de pasajeros de Emirates recibirán chocolate Pacari este año. Para la empresa, 
+                “este logro comprueba que somos más que un país productor de cacao, Ecuador es capaz de producir y 
+                exportar chocolates de alta calidad". Emirates Airlines</p>
 
         </article>
 
     </section>
-    <section>
+    <section class="seccion2">
         <header>
-            <a href="Prensa.html#cena">Pacari presente en cena solidaria en Madrid </a>
-            <a href="Prensa.html#agricultura"> Agricultura</a>
-            <a href="Prensa.html#proyectos">Proyectos</a>
+            <a href="Prensa.html#cena" target="_blank">Pacari presente en cena solidaria en Madrid </a>
+            <a href="Prensa.html#agricultura" target="_blank"> Agricultura</a>
+            <a href="Prensa.html#proyectos" target="_blank">Proyectos</a>
         </header>
         <article>
-            <h4 id=cena>PACARI PRESENTE EN CENA SOLIDARIA EN MADRID</h4>
+            <h1 id=cena>PACARI PRESENTE EN CENA SOLIDARIA EN MADRID</h1>
             <p>En días pasados en la ciudad de Madrid, Pacari, empresa ecuatoriana
                 consiente de la responsabilidad social, formó parte de las empresas
                 participantes en la Cena Solidaria.</p>
         </article>
 
         <article>
-            <h4 id=agricultura>AGRICULTURA</h4>
+            <h2 id=agricultura>AGRICULTURA</h2>
             <p>Para que el sabor de nuestro chocolate sea único y conserve sus cualidades orgánicas, hemos desarrollado
                 un proceso de producción que mantiene el equilibrio entre los productores y la naturaleza, del árbol a
                 la barra.
-                El Chocolate Pacari está elaborado con cacao fino de aroma ecuatoriano conocido como “Arriba Nacional”.
-                Este fruto proviene de la revitalización de una cepa ancestral de cacao ecuatoriano que ha sido
-                recuperada gracias al trabajo
-                y sabiduría de los agricultores. Ellos utilizan mecanismos de siembra y cosecha biodinámicos* (Sistema
+                Ellos utilizan mecanismos de siembra y cosecha biodinámicos* (Sistema
                 de producción de materia
                 prima que mantiene un ecosistema auto-regenerativo, libre de químicos, pesticidas y fertilizantes;
                 conservando un balance
@@ -98,8 +103,8 @@
     </section>
     <footer>
         Juan Carlos Cañar Uyaguari. &#8226; Universidad Politecnica Salesiana &#8226;
-        <p>e-mail: <a href="mailto:jcanaru@est.ups.edu.ec"> jcanaru@est.ups.edu.ec</a></p>
-        <p>Telf: <a href="tel:+0981901332">(+593) 2-255 2817</a> </p>
+        e-mail: <a href="mailto:jcanaru@est.ups.edu.ec"> jcanaru@est.ups.edu.ec</a>
+        Telf: <a href="tel:+0981901332">(+593) 2-255 2817</a> 
         &#169; “Todos los derechos reservados”.
     </footer>
 </body>

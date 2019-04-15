@@ -1,25 +1,181 @@
 #menuPrincipal{
     width: 20%;
-    border-width: 10px;
-    border-color: gold;
     float: left;
+    white-space: pre;
+    border: 0px;
+    padding: 0px;
+    border-style: solid;
+    white-space: nowrap;
+    
 }
 
-#textos{
-    text-decoration-line: inherit;
+#ubicacion{
+    text-align: right
+}
 
+#img{
+    max-width: 100%;
+    height: auto;
+}
+
+.colorMenu{
+    border-style: groove;
+    background-color: rgba(119, 161, 21, 0.973);
+    list-style-type: none;
+    margin:0; /*margen de la cabecera*/
+    padding:40px;
+    width: 220px;
+     
+}
+.colorContactanos{
+    background-color: rgb(245, 178, 55);
+}
+div{
+    background: rosybrown;
+}
+
+h1{
+color:rgb(136, 122, 41); 
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-decoration: underline;
+font-size: 24px;
+}
+h2{
+    color: goldenrod; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: darkred;
+    font-size: 20px;
+}
+h4{
+    color: brown;
+    font-family: cursive;
+    text-decoration: olive;
+    font-size: 18px;
+}
+a{
+    color:mediumslateblue;
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(94, 94, 138);
+}
+a:hover,a:active,a:focus {
+  color: rgb(199, 55, 55);
+  text-decoration: none;
+}
+
+li {
+    border-bottom: 0px solid #555;
+    
+    
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 4px;
+}
+
+
+  
+li:last-child {
+    border-bottom: none;
+  }
+
+.imgTxt{
+    display:block;
+    margin:auto;
+    box-shadow: 0 0 2px 4px rgba(156, 182, 42, 0.5);
+    border-color: blueviolet;
+}
+
+#imgOpacidad{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
 
 }
 
-.color{
+.imgT:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleY(-1);
+  }
 
+#imgRenderizable{
+    width:300px;
+    height:200px;
 }
 
-.tablas{
-
-
+.imgBorde{
+ border-radius: 35px;
+ display:block;
+    margin:auto;
 }
 
-section article{
+#colortxtIndex{
+    color: rgb(226, 87, 44);
+    text-orientation: upright;
+}
 
+#colorConocenos{
+    color: rgb(146, 82, 22);
+    text-orientation: upright;
+}
+.txtEfecto{
+    color: #000;
+    text-shadow: #555 2px 2px 3px;
+}
+
+.tctCentro{
+    text-align: center;
+}
+/*para el envio*/
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;/*aqui es el cuadro de contacto */
+    border: 5px solid;
+    border-radius: 1em;
+    background-color:  rgb(245, 178, 55);
+}
+/*div+div*/
+form div  {
+    margin-top: 1em;
+    background-color: rgb(245, 178, 55);
+}
+
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    background-color: rgba(99, 72, 38, 0.548)
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid rgb(44, 38, 38);
+}
+
+input:focus, textarea:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    border-color: #000;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+.button {
+    /* Para posicionar los botones a la misma posición que los campos de texto */
+    padding-left: 90px; /* mismo tamaño a todos los elementos label */
+}
+button {
+    /* Este margen extra representa aproximadamente el mismo espacio que el espacio
+       entre los labels y sus campos de texto */
+    margin-left: .5em;
 }

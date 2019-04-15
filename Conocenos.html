@@ -5,17 +5,16 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="Pacari" />
     <title>Pacari Chocolate</title>
+    <link href="css/reglas.css" rel="stylesheet" type="text/css"/>
+    <link href="css/2columnas.css" rel="stylesheet" type="text/css"/>
 </head>
 
 <body>
     <header>
-        <img src="images/logo.jpg" alt="">
+        <img id="img" src="images/logo.jpg" alt="">
     </header>
-    <nav>
-        <p>
-            
-        </p>
-        <ul>
+    <nav id="menuPrincipal">
+        <ul class="colorMenu">
             <li><a href="Index.html">Principal</a></li>
             <li><a href="Conocenos.html">Conocenos</a></li>
             <li><a href="nuestros-productos.html">Nuestros Productos</a></li>
@@ -24,11 +23,11 @@
             <li><a href="Contactanos.html">Contactanos</a></li>
         </ul>
     </nav>
-
+    <div id=columna2>
     <section>
-        <article>
-            <h4>Conocenos</h4>
-            <p>Pacari Chocolate es una empresa familiar creada en 2002 por Santiago Peralta y Carla Barbotó con el
+        <article id="colorConocenos">
+            <h1>Conocenos. Enterate un poco mas de Pacari</h1>
+            <p >Pacari Chocolate es una empresa familiar creada en 2002 por Santiago Peralta y Carla Barbotó con el
                 objetivo de cambiar la historia del chocolate en Ecuador.
                 Lo que empezó como una empresa familiar muy pronto se convertiría en un negocio que revolucionó la
                 industria, no sólo en el país, sino en toda la región de América Latina.
@@ -41,10 +40,10 @@
                 La calidad de Pacari refleja el trabajo en conjunto con cada persona involucrada en la innovación
                 constante, la responsabilidad social, la sostenibilidad y
                 el comercio directo con los agricultores de pequeña escala.</p>
-            <img src="images/historia.jpg" alt="">
+            <img id="imgOpacidad" src="images/historia.jpg" alt="">
         </article>
         <aside>
-            <h4>TOUR DEL CACAO Y CHOCOLATE</h4>
+            <h2>TOUR DEL CACAO Y CHOCOLATE</h2>
             <p> <strong> Un día lleno de aventura en la Amazonía del Ecuador.
                     Lo mejor de la ruta del Chocolate Pacari a pocas horas de Quito.</strong>
                 Ésta increíble experiencia inicia en Archidona visitando la comunidad de Santa Rita y nuestro Proyecto
@@ -67,7 +66,7 @@
     </section>
     <section>
         <aside>
-            <h4>INGREDIENTES TRADICIONALES</h4>
+            <h1>INGREDIENTES TRADICIONALES</h1>
             <ul>
                 <li type="disc">Uvilla</li>
                 <li type="disc">Mortiño</li>
@@ -80,10 +79,11 @@
             </ul>
         </aside>
     </section>
+    </div>
     <footer>
         Juan Carlos Cañar Uyaguari. &#8226; Universidad Politecnica Salesiana &#8226;
-        <p>e-mail: <a href="mailto:jcanaru@est.ups.edu.ec"> jcanaru@est.ups.edu.ec</a></p>
-        <p>Telf: <a href="tel:+0981901332">(+593) 2-255 2817</a> </p>
+        e-mail: <a href="mailto:jcanaru@est.ups.edu.ec"> jcanaru@est.ups.edu.ec</a>
+        Telf: <a href="tel:+0981901332">(+593) 2-255 2817</a> 
         &#169; “Todos los derechos reservados”.
     </footer>
 </body>
