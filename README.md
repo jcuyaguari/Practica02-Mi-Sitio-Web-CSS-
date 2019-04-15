@@ -12,11 +12,13 @@
 <li>1. Crear un repositorio en GitHub con el nombre “Practica02 – Mi Sitio Web (CSS)” </li>
 
 <li>2. Realizar un commit y push por cada requerimiento de los puntos antes descritos.  </li>
-
-C:\Users\JuancUyaguari>cd Desktop                                                                                                                                                                                                                                                                                                                                                                                                 C:\Users\JuancUyaguari\Desktop>cd Hipermedial                                                                                                                                                                                                                                                                                                                                                                                     C:\Users\JuancUyaguari\Desktop\Hipermedial>cd Deber2                                                                                                                                                                                                                                                                                                                                                                              C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git init
+```
+C:\Users\JuancUyaguari>cd Desktop                                                                                                       C:\Users\JuancUyaguari\Desktop>cd Hipermedial                                                                                           C:\Users\JuancUyaguari\Desktop\Hipermedial>cd Deber2                                                                                     C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git init
 C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git add .
 C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git commit -m “creacion”
 C:\Users\JuancUyaguari\Desktop\Hipermedial\Deber2> git push -u origin master
+```
+
 3.	Al finalizar la práctica se debe validar todas las páginas HTML y hojas de estilos CSS creadas usando el W3C Validator. 
 Generar informe de los resultados en el formato de prácticas. Debe incluir: 
 •	El desarrollo de cada uno de los puntos antes descritos así como las reglas CSS utilizadas para resolver cada punto.  
