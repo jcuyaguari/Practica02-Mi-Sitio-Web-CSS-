@@ -37,6 +37,7 @@
     padding-right: 10px;
     margin-bottom: 10px;
 }
+```
 <li>En la etiqueta div, llamamos al selector por id “columna2”.</li>
 ```
 <div id=columna2>
