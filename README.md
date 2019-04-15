@@ -38,3 +38,4 @@
     margin-bottom: 10px;
 }
 ```
+En la etiqueta div, llamamos al selector por id “columna2”.
